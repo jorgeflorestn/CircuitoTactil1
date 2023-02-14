@@ -191,6 +191,8 @@
 <wire x1="76.18" y1="0" x2="76.18" y2="31.42" width="0" layer="20"/>
 <wire x1="76.18" y1="31.42" x2="0" y2="31.42" width="0" layer="20"/>
 <wire x1="0" y1="31.42" x2="0" y2="0" width="0" layer="20"/>
+<dimension x1="0" y1="0" x2="76.18" y2="0" x3="38.09" y3="-6.35" textsize="1.778" layer="1"/>
+<dimension x1="0" y1="0" x2="0" y2="31.75" x3="-6.35" y3="15.875" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="CSP-USC16-TR">
@@ -2496,19 +2498,19 @@ design rules under a new name.</description>
 <attribute name="LABEL" value="" x="14.986" y="5.461" size="0.8128" layer="25" ratio="21"/>
 <attribute name="NAME" x="14.986" y="6.477" size="0.8128" layer="25" ratio="21"/>
 </element>
-<element name="IC1" library="NINA-B306-00B" package="NINAB30600B" override_package3d_urn="urn:adsk.eagle:package:37871514/2" override_package_urn="urn:adsk.eagle:footprint:37871515/1" value="NINA-B306-00B" x="6.35" y="-11.43" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="" x="6.35" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="6.35" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="RX TXRX MODULE BT TRC ANT SMD" x="6.35" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="2.63mm" x="6.35" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="U-Blox" x="6.35" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="NINA-B306-00B" x="6.35" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="377-NINA-B306-00B" x="6.35" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/u-blox/NINA-B306-00B?qs=zW32dvEIR3uPiIbgcFbQtQ%3D%3D" x="6.35" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_TESTING_PART_NUMBER" value="" x="6.35" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_TESTING_PRICE-STOCK" value="" x="6.35" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.35" y="-11.43" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="6.35" y="-11.43" size="1.27" layer="27" align="center"/>
+<element name="IC1" library="NINA-B306-00B" package="NINAB30600B" override_package3d_urn="urn:adsk.eagle:package:37871514/2" override_package_urn="urn:adsk.eagle:footprint:37871515/1" value="NINA-B306-00B" x="66.04" y="10.16" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="66.04" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="66.04" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="RX TXRX MODULE BT TRC ANT SMD" x="66.04" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="2.63mm" x="66.04" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="U-Blox" x="66.04" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="NINA-B306-00B" x="66.04" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="377-NINA-B306-00B" x="66.04" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/u-blox/NINA-B306-00B?qs=zW32dvEIR3uPiIbgcFbQtQ%3D%3D" x="66.04" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_TESTING_PART_NUMBER" value="" x="66.04" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_TESTING_PRICE-STOCK" value="" x="66.04" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="66.04" y="10.16" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="66.04" y="10.16" size="1.27" layer="27" align="center"/>
 </element>
 </elements>
 <signals>
@@ -2927,13 +2929,13 @@ design rules under a new name.</description>
 <wire x1="21.59" y1="1.69" x2="22.44" y2="7.62" width="0" layer="19" extent="1-1"/>
 <wire x1="26.6756" y1="2.86" x2="21.59" y2="1.69" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="SCKU">
+<signal name="SCK_U">
 <contactref element="U$1" pad="2"/>
 </signal>
-<signal name="SI">
+<signal name="SI_U">
 <contactref element="U$1" pad="3"/>
 </signal>
-<signal name="CSU">
+<signal name="CS_U">
 <contactref element="U$1" pad="1"/>
 </signal>
 </signals>
