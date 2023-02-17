@@ -1,0 +1,9 @@
+Manufacturer=Hirose
+PartNumber=DM3CS-SF-PEJMS
+PartCategory=Connector
+PackageCategory=Other
+PinCount=13
+Version=1.1
+Released=2019-03-07 17:50:47
+Downloaded=2023-02-17 01:59:24
+3D=Y
