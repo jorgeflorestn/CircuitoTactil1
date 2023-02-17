@@ -72,7 +72,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -12006,7 +12006,7 @@ type 0204, grid 2.5 mm</description>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="5.1k"/>
 <part name="GND3" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="GND4" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
-<part name="D1" library="PRTR5V0U2X" deviceset="PRTR5V0U2X" device=""/>
+<part name="D1" library="PRTR5V0U2X" deviceset="PRTR5V0U2X" device="" override_package3d_urn="urn:adsk.eagle:package:39256716/2" override_package_urn="urn:adsk.eagle:footprint:39256717/1"/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_USB" device=""/>
 <part name="GND5" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="L1" library="OPL_Ferrite_and_Magnetic_Bead" library_urn="urn:adsk.eagle:library:8004552" deviceset="SMD-FERRITE-BEAD-2500R-50MA(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004622/1" value="2500R-50MA"/>
@@ -12014,7 +12014,7 @@ type 0204, grid 2.5 mm</description>
 <part name="GND7" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1n"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1n"/>
-<part name="J2" library="1761681-7" deviceset="1761681-7" device="" override_package3d_urn="urn:adsk.eagle:package:37871617/2" override_package_urn="urn:adsk.eagle:footprint:37871618/1"/>
+<part name="J2" library="1761681-7" deviceset="1761681-7" device="" override_package3d_urn="urn:adsk.eagle:package:39256712/3" override_package_urn="urn:adsk.eagle:footprint:39256713/1"/>
 <part name="T1N" library="52101-101-REV-A_v16" library_urn="urn:adsk.eagle:library:21899384" deviceset="TESTPOINT_TPS" device="-SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2"/>
 <part name="T1P" library="52101-101-REV-A_v16" library_urn="urn:adsk.eagle:library:21899384" deviceset="TESTPOINT_TPS" device="-SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2"/>
 <part name="FB1" library="Filter" library_urn="urn:adsk.eagle:library:16378195" deviceset="FB" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378199/1" value="FERRITE_BEAD"/>
@@ -12024,7 +12024,7 @@ type 0204, grid 2.5 mm</description>
 <part name="GND9" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_USB" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_USB" device=""/>
-<part name="IC4" library="MAX8559ETAAA+T" deviceset="MAX8559ETAAA+T" device="" override_package3d_urn="urn:adsk.eagle:package:37871594/2" override_package_urn="urn:adsk.eagle:footprint:37871596/1"/>
+<part name="IC4" library="MAX8559ETAAA+T" deviceset="MAX8559ETAAA+T" device="" override_package3d_urn="urn:adsk.eagle:package:39256761/2" override_package_urn="urn:adsk.eagle:footprint:39256762/1"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_USB" device=""/>
@@ -12037,11 +12037,11 @@ type 0204, grid 2.5 mm</description>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2uF"/>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2uF"/>
 <part name="GND12" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
-<part name="U1" library="TMUX1208" deviceset="TMUX1208PWR" device="" override_package3d_urn="urn:adsk.eagle:package:37871566/2" override_package_urn="urn:adsk.eagle:footprint:37871567/1"/>
-<part name="Q1" library="NTR5103NT1G" deviceset="NTR5103NT1G" device=""/>
-<part name="U2" library="TMUX1208" deviceset="TMUX1208PWR" device="" override_package3d_urn="urn:adsk.eagle:package:37871566/2" override_package_urn="urn:adsk.eagle:footprint:37871567/1"/>
-<part name="U3" library="TMUX1208" deviceset="TMUX1208PWR" device="" override_package3d_urn="urn:adsk.eagle:package:37871566/2" override_package_urn="urn:adsk.eagle:footprint:37871567/1"/>
-<part name="U4" library="TMUX1208" deviceset="TMUX1208PWR" device="" override_package3d_urn="urn:adsk.eagle:package:37871566/2" override_package_urn="urn:adsk.eagle:footprint:37871567/1"/>
+<part name="U1" library="TMUX1208" deviceset="TMUX1208PWR" device="" override_package3d_urn="urn:adsk.eagle:package:39256706/3" override_package_urn="urn:adsk.eagle:footprint:39256707/1"/>
+<part name="Q1" library="NTR5103NT1G" deviceset="NTR5103NT1G" device="" override_package3d_urn="urn:adsk.eagle:package:39256759/2" override_package_urn="urn:adsk.eagle:footprint:39256760/1"/>
+<part name="U2" library="TMUX1208" deviceset="TMUX1208PWR" device="" override_package3d_urn="urn:adsk.eagle:package:39256710/2" override_package_urn="urn:adsk.eagle:footprint:39256711/1"/>
+<part name="U3" library="TMUX1208" deviceset="TMUX1208PWR" device="" override_package3d_urn="urn:adsk.eagle:package:39256704/2" override_package_urn="urn:adsk.eagle:footprint:39256705/1"/>
+<part name="U4" library="TMUX1208" deviceset="TMUX1208PWR" device="" override_package3d_urn="urn:adsk.eagle:package:39256699/2" override_package_urn="urn:adsk.eagle:footprint:39256701/1"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
@@ -12055,8 +12055,8 @@ type 0204, grid 2.5 mm</description>
 <part name="GND19" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="GND20" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_USB" device=""/>
-<part name="Q2" library="NTR5103NT1G" deviceset="NTR5103NT1G" device=""/>
-<part name="IC2" library="INA126" deviceset="INA126" device="E" override_package3d_urn="urn:adsk.eagle:package:37871580/2" override_package_urn="urn:adsk.eagle:footprint:37871581/1"/>
+<part name="Q2" library="NTR5103NT1G" deviceset="NTR5103NT1G" device="" override_package3d_urn="urn:adsk.eagle:package:39256757/2" override_package_urn="urn:adsk.eagle:footprint:39256758/1"/>
+<part name="IC2" library="INA126" deviceset="INA126" device="E" override_package3d_urn="urn:adsk.eagle:package:39256767/2" override_package_urn="urn:adsk.eagle:footprint:39256768/1"/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1.7k"/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="220k"/>
@@ -12069,7 +12069,7 @@ type 0204, grid 2.5 mm</description>
 <part name="GND24" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2uF"/>
 <part name="GND25" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
-<part name="RV1" library="MCP41010T-I_SN" deviceset="MCP41010T-I/SN" device="" override_package3d_urn="urn:adsk.eagle:package:37871577/2" override_package_urn="urn:adsk.eagle:footprint:37871578/1"/>
+<part name="RV1" library="MCP41010T-I_SN" deviceset="MCP41010T-I/SN" device="" override_package3d_urn="urn:adsk.eagle:package:39256765/2" override_package_urn="urn:adsk.eagle:footprint:39256766/1"/>
 <part name="GND26" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2uF"/>
 <part name="GND27" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
@@ -12077,14 +12077,14 @@ type 0204, grid 2.5 mm</description>
 <part name="3V3T1" library="52101-101-REV-A_v16" library_urn="urn:adsk.eagle:library:21899384" deviceset="TESTPOINT_TPS" device="-SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2"/>
 <part name="5VMT1" library="52101-101-REV-A_v16" library_urn="urn:adsk.eagle:library:21899384" deviceset="TESTPOINT_TPS" device="-SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2"/>
 <part name="GNDT1" library="52101-101-REV-A_v16" library_urn="urn:adsk.eagle:library:21899384" deviceset="TESTPOINT_TPS" device="-SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2"/>
-<part name="IC1" library="NINA-B306-00B" deviceset="NINA-B306-00B" device="" override_package3d_urn="urn:adsk.eagle:package:37871514/2" override_package_urn="urn:adsk.eagle:footprint:37871515/1"/>
-<part name="S1" library="BUTT-2" deviceset="BUTT-2" device=""/>
+<part name="IC1" library="NINA-B306-00B" deviceset="NINA-B306-00B" device="" override_package3d_urn="urn:adsk.eagle:package:39256684/2" override_package_urn="urn:adsk.eagle:footprint:39256685/1"/>
+<part name="S1" library="BUTT-2" deviceset="BUTT-2" device="" override_package3d_urn="urn:adsk.eagle:package:39256680/2" override_package_urn="urn:adsk.eagle:footprint:39256681/1"/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1 uF"/>
 <part name="GND29" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="GND30" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
-<part name="J3" library="DM3CS-SF-PEJMS" deviceset="DM3CS-SF-PEJMS" device=""/>
-<part name="J1" library="USB4105-GF-A" deviceset="USB4105-GF-A" device=""/>
+<part name="J3" library="DM3CS-SF-PEJMS" deviceset="DM3CS-SF-PEJMS" device="" override_package3d_urn="urn:adsk.eagle:package:39256635/2" override_package_urn="urn:adsk.eagle:footprint:39256636/1"/>
+<part name="J1" library="USB4105-GF-A" deviceset="USB4105-GF-A" device="" override_package3d_urn="urn:adsk.eagle:package:39256666/2" override_package_urn="urn:adsk.eagle:footprint:39256667/1"/>
 <part name="SJ1" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NO" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39277/1" override_package3d_urn="urn:adsk.eagle:package:29952462/3" override_package_urn="urn:adsk.eagle:footprint:39252/1"/>
 <part name="SJ2" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NO" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39277/1" override_package3d_urn="urn:adsk.eagle:package:29952464/2" override_package_urn="urn:adsk.eagle:footprint:39252/1"/>
 <part name="FID4" library="microbuilder" deviceset="FIDUCIAL" device="_1MM" override_package3d_urn="urn:adsk.eagle:package:29821960/2" override_package_urn="urn:adsk.eagle:footprint:29821961/1"/>
@@ -26896,7 +26896,7 @@ type 0204, grid 2.5 mm</description>
 <rectangle x1="301.6885" y1="23.8633" x2="301.9425" y2="23.8887" layer="94"/>
 <rectangle x1="301.7139" y1="23.8887" x2="301.9171" y2="23.9141" layer="94"/>
 <text x="344.932" y="20.574" size="1.9304" layer="94" ratio="13">NTC MUX Board Rev1.4</text>
-<text x="91.44" y="60.96" size="1.9304" layer="94" ratio="13">Añadir ADC ADS1220 (OPTIONAL)</text>
+<text x="91.44" y="60.96" size="1.9304" layer="94" font="vector" ratio="13">Añadir ADC ADS1220 (OPTIONAL)</text>
 <text x="91.44" y="55.88" size="1.9304" layer="94" ratio="13">Añadir headers para sacar i2c y spi</text>
 <text x="91.44" y="50.8" size="1.9304" layer="94" ratio="13">Conectar MCU a pines</text>
 <text x="91.44" y="45.72" size="1.9304" layer="94" ratio="13">Validar secuencia en MUXes</text>
@@ -26904,8 +26904,9 @@ type 0204, grid 2.5 mm</description>
 <text x="91.44" y="66.04" size="1.9304" layer="94" ratio="13">TO DO LIST</text>
 <text x="45.72" y="157.48" size="1.9304" layer="94" ratio="13">SOLO VA UNO?</text>
 <text x="91.44" y="35.56" size="1.9304" layer="94" ratio="13">Validar conexión spi y componentes para micro SD</text>
-<text x="91.44" y="30.48" size="1.9304" layer="94" ratio="13">Añadir ic para carga y descarga de baterías?</text>
+<text x="91.44" y="30.48" size="1.9304" layer="94" font="vector" ratio="13">Añadir ic para carga y descarga de baterías?</text>
 <text x="91.44" y="25.4" size="1.9304" layer="94" ratio="13">Controlar la salida 2 del regulador para encender/apagar circuitos</text>
+<text x="91.44" y="20.32" size="1.778" layer="94">Jumper para saltar de 3.3v a 5v</text>
 </plain>
 <instances>
 <instance part="SUPPLY1" gate="G$1" x="76.2" y="233.68" smashed="yes">
@@ -27215,14 +27216,10 @@ type 0204, grid 2.5 mm</description>
 </segment>
 <segment>
 <pinref part="SUPPLY5" gate="G$1" pin="V_USB"/>
-<pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="119.888" y1="234.188" x2="119.888" y2="236.728" width="0.1524" layer="91"/>
-<wire x1="107.188" y1="231.648" x2="107.188" y2="234.188" width="0.1524" layer="91"/>
-<wire x1="107.188" y1="234.188" x2="114.808" y2="234.188" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="114.808" y1="234.188" x2="114.808" y2="231.648" width="0.1524" layer="91"/>
 <wire x1="114.808" y1="234.188" x2="119.888" y2="234.188" width="0.1524" layer="91"/>
-<junction x="114.808" y="234.188"/>
 <pinref part="IC4" gate="G$1" pin="INA"/>
 <wire x1="122.428" y1="221.488" x2="119.888" y2="221.488" width="0.1524" layer="91"/>
 <wire x1="119.888" y1="221.488" x2="119.888" y2="234.188" width="0.1524" layer="91"/>
@@ -28150,6 +28147,11 @@ type 0204, grid 2.5 mm</description>
 <junction x="223.52" y="90.678"/>
 <label x="223.52" y="98.298" size="0.8128" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="289.56" y1="106.68" x2="287.02" y2="106.68" width="0.1524" layer="91"/>
+<label x="287.02" y="106.68" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC1" gate="G$1" pin="SWDCLK"/>
+</segment>
 </net>
 <net name="RESETN" class="0">
 <segment>
@@ -28157,12 +28159,28 @@ type 0204, grid 2.5 mm</description>
 <pinref part="J4" gate="G$1" pin="6"/>
 <label x="200.914" y="88.138" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<label x="287.02" y="86.36" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC1" gate="G$1" pin="RESET_N"/>
+<wire x1="287.02" y1="86.36" x2="289.56" y2="86.36" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SWDIO" class="0">
 <segment>
 <pinref part="J4" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="93.218" x2="200.66" y2="93.218" width="0.1524" layer="91"/>
 <label x="200.66" y="93.218" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="289.56" y1="96.52" x2="287.02" y2="96.52" width="0.1524" layer="91"/>
+<label x="287.02" y="96.52" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC1" gate="G$1" pin="SWDIO"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="107.188" y1="231.648" x2="107.188" y2="234.188" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
