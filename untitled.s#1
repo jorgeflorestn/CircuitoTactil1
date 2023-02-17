@@ -10632,7 +10632,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <text x="210.82" y="147.32" size="6.4516" layer="95" align="center">Headers &amp; Reset</text>
 <text x="297.18" y="246.38" size="6.4516" layer="95" align="center">MUXes</text>
 <text x="147.32" y="246.38" size="6.4516" layer="95" align="center">Power Supply</text>
-<text x="50.8" y="246.38" size="6.4516" layer="95" align="center">USB-C Interface</text>
+<text x="50.8" y="246.38" size="6.4516" layer="95" align="center">USB C Interface</text>
 <text x="91.44" y="147.32" size="6.4516" layer="95" align="center">Front End</text>
 <wire x1="99.06" y1="256.54" x2="99.06" y2="157.48" width="1.27" layer="95" style="longdash"/>
 <wire x1="5.08" y1="154.94" x2="383.54" y2="154.94" width="1.27" layer="95" style="longdash"/>
