@@ -272,15 +272,15 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="Package" value="SMD-55 U-Blox"/>
-<attribute name="MP" value="NINA-B306-00B-00"/>
+<attribute name="Purchase-URL" value="https://pricing.snapeda.com/search/part/NINA-B306-00B-00/?ref=eda"/>
 <attribute name="Description" value="
 With internal PCB antenna, 10.0 x 15.0 x 2.2 mm, use with open CPU
 "/>
-<attribute name="Availability" value="In Stock"/>
-<attribute name="Purchase-URL" value="https://pricing.snapeda.com/search/part/NINA-B306-00B-00/?ref=eda"/>
-<attribute name="MF" value="U-Blox America Inc."/>
+<attribute name="MP" value="NINA-B306-00B-00"/>
+<attribute name="Package" value="SMD-55 U-Blox"/>
 <attribute name="Price" value="None"/>
+<attribute name="Availability" value="In Stock"/>
+<attribute name="MF" value="U-Blox America Inc."/>
 </technology>
 </technologies>
 </device>
