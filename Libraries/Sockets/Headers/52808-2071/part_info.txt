@@ -1,0 +1,9 @@
+Manufacturer=Molex
+PartNumber=52808-2071
+PartCategory=Connector
+PackageCategory=Other
+PinCount=20
+Version=2.2
+Released=2018-04-17 14:38:28
+Downloaded=2023-02-27 09:47:56
+3D=Y

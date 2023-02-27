@@ -1,1 +1,22 @@
 # CircuitoTactil1
+-- Por hacer y revisar (de prioritario a no urgente)
+- Conectar MCU a pines ✓
+- Revisar mosfet Q1, se están usando como canal P y no N ✓
+- Validar secuencia en MUXes ✓
+- Editar footprint de nina para quitar todos los gpio no usados ✓
+- Validar conexión spi y componentes para micro SD ✓
+- Controlar la salida 2 del regulador para encender/apagar circuitos ✓ (checar consumo? aguanta el ic?)
+- Etiquetas en pines.
+- Checar valores de resistencias y capacitores
+- añadir capacitores al lado de la entrada de 3.3v MCU 
+- tapar vias no importantes (reduciendo su tamaño <13 mils)
+-- Extras a añadir
+- Añadir headers para sacar I2C y SPI ✓
+- Añadir testpoints en muxes ✓
+- Jumper para saltar de 3.3v a 5v ✓
+
+-- Si nos da tiempo 
+- Añadir ic para carga y descarga de baterías (queda un espacio grande donde podemos añadir el cargador de pilas)
+- Si se añade, se debe aislar los 5v del usb y los 4.2 de la pila.
+- Integrar ADC ADS1220 (FUTURO (puerto i2c disponible))
+- Añadir conector plano de +42 pines (FUTURO)
