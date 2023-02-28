@@ -11413,7 +11413,7 @@ Source: &lt;a href="https://www.molex.com/pdm_docs/sd/528082071_sd.pdf"&gt; Data
 <part name="D1" library="PRTR5V0U2X" deviceset="PRTR5V0U2X" device="" override_package3d_urn="urn:adsk.eagle:package:39256716/2" override_package_urn="urn:adsk.eagle:footprint:39256717/1"/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_USB" device=""/>
 <part name="GND5" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
-<part name="L1" library="OPL_Ferrite_and_Magnetic_Bead" library_urn="urn:adsk.eagle:library:8004552" deviceset="SMD-FERRITE-BEAD-2500R-50MA(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004622/1" value="2500R-50MA"/>
+<part name="L1" library="OPL_Ferrite_and_Magnetic_Bead" library_urn="urn:adsk.eagle:library:8004552" deviceset="SMD-FERRITE-BEAD-2500R-50MA(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004622/1" override_package3d_urn="urn:adsk.eagle:package:39374540/2" override_package_urn="urn:adsk.eagle:footprint:8004597/1" value="2500R-50MA"/>
 <part name="GND6" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="GND7" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1n"/>
@@ -11424,14 +11424,14 @@ Source: &lt;a href="https://www.molex.com/pdm_docs/sd/528082071_sd.pdf"&gt; Data
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_USB" device=""/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2uF"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2uF"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
 <part name="SUPPLY24" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="GND10" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.01uF"/>
 <part name="GND11" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
-<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2uF"/>
-<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2uF"/>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
 <part name="GND12" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="U1" library="TMUX1208" deviceset="TMUX1208PWR" device="" override_package3d_urn="urn:adsk.eagle:package:39256706/3" override_package_urn="urn:adsk.eagle:footprint:39256707/1"/>
 <part name="U2" library="TMUX1208" deviceset="TMUX1208PWR" device="" override_package3d_urn="urn:adsk.eagle:package:39256710/2" override_package_urn="urn:adsk.eagle:footprint:39256711/1"/>
@@ -11489,7 +11489,7 @@ Source: &lt;a href="https://www.molex.com/pdm_docs/sd/528082071_sd.pdf"&gt; Data
 <part name="GND31" library="Arduino-supply" deviceset="GND" device="" value="GND"/>
 <part name="JP1" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_3_NO" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39284/1" override_package3d_urn="urn:adsk.eagle:package:39329052/2" override_package_urn="urn:adsk.eagle:footprint:39263/1"/>
 <part name="GND32" library="Arduino-supply" deviceset="GND" device="" value="GND"/>
-<part name="D2" library="SML-P12PTT86R" deviceset="SML-P12PTT86R" device="" override_package3d_urn="urn:adsk.eagle:package:39329460/2" override_package_urn="urn:adsk.eagle:footprint:39329461/1"/>
+<part name="D2" library="SML-P12PTT86R" deviceset="SML-P12PTT86R" device="" override_package3d_urn="urn:adsk.eagle:package:39374574/2" override_package_urn="urn:adsk.eagle:footprint:39374575/1"/>
 <part name="J6" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-2" device="" package3d_urn="urn:adsk.eagle:package:8342/1" override_package3d_urn="urn:adsk.eagle:package:39329735/3" override_package_urn="urn:adsk.eagle:footprint:8289/1"/>
 <part name="J5" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-2" device="" package3d_urn="urn:adsk.eagle:package:8368/1" override_package3d_urn="urn:adsk.eagle:package:39329712/4" override_package_urn="urn:adsk.eagle:footprint:8328/1"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" override_package3d_urn="urn:adsk.eagle:package:39330019/2" override_package_urn="urn:adsk.eagle:footprint:23044/1" value="4k7"/>
@@ -11500,11 +11500,14 @@ Source: &lt;a href="https://www.molex.com/pdm_docs/sd/528082071_sd.pdf"&gt; Data
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
-<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="DNP"/>
-<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="DNP"/>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" override_package3d_urn="urn:adsk.eagle:package:39374572/2" override_package_urn="urn:adsk.eagle:footprint:23044/1" value="DNP"/>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" override_package3d_urn="urn:adsk.eagle:package:39374573/2" override_package_urn="urn:adsk.eagle:footprint:23044/1" value="DNP"/>
 <part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1" override_package3d_urn="urn:adsk.eagle:package:39362152/2" override_package_urn="urn:adsk.eagle:footprint:8281/1"/>
 <part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device="" package3d_urn="urn:adsk.eagle:package:8078633/1" override_package3d_urn="urn:adsk.eagle:package:39362140/2" override_package_urn="urn:adsk.eagle:footprint:8078259/1"/>
 <part name="J7" library="52808-2071" deviceset="52808-2071" device="" override_package3d_urn="urn:adsk.eagle:package:39362400/2" override_package_urn="urn:adsk.eagle:footprint:39362401/1"/>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" override_package3d_urn="urn:adsk.eagle:package:39374531/2" override_package_urn="urn:adsk.eagle:footprint:23123/1" value="100nF"/>
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" override_package3d_urn="urn:adsk.eagle:package:39374516/2" override_package_urn="urn:adsk.eagle:footprint:23123/1" value="100nF"/>
+<part name="GND9" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 </parts>
 <sheets>
 <sheet>
@@ -26602,6 +26605,15 @@ Source: &lt;a href="https://www.molex.com/pdm_docs/sd/528082071_sd.pdf"&gt; Data
 <attribute name="NAME" x="105.41" y="60.96" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="105.41" y="58.42" size="1.778" layer="96" align="center-left"/>
 </instance>
+<instance part="C6" gate="G$1" x="140.208" y="168.148" smashed="yes">
+<attribute name="NAME" x="141.732" y="168.529" size="1.778" layer="95"/>
+<attribute name="VALUE" x="141.732" y="163.449" size="1.778" layer="96"/>
+</instance>
+<instance part="C7" gate="G$1" x="150.368" y="168.148" smashed="yes">
+<attribute name="NAME" x="151.892" y="168.529" size="1.778" layer="95"/>
+<attribute name="VALUE" x="151.892" y="163.449" size="1.778" layer="96"/>
+</instance>
+<instance part="GND9" gate="G$1" x="145.288" y="160.528" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -26875,6 +26887,16 @@ Source: &lt;a href="https://www.molex.com/pdm_docs/sd/528082071_sd.pdf"&gt; Data
 <wire x1="157.48" y1="129.54" x2="157.48" y2="132.08" width="0.1524" layer="91"/>
 <label x="157.48" y="132.08" size="1.016" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="140.208" y1="163.068" x2="140.208" y2="160.528" width="0.1524" layer="91"/>
+<wire x1="140.208" y1="160.528" x2="145.288" y2="160.528" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="145.288" y1="160.528" x2="150.368" y2="160.528" width="0.1524" layer="91"/>
+<wire x1="150.368" y1="160.528" x2="150.368" y2="163.068" width="0.1524" layer="91"/>
+<pinref part="GND9" gate="G$1" pin="GND"/>
+<junction x="145.288" y="160.528"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -27005,6 +27027,17 @@ Source: &lt;a href="https://www.molex.com/pdm_docs/sd/528082071_sd.pdf"&gt; Data
 <wire x1="182.88" y1="178.562" x2="182.88" y2="184.658" width="0.1524" layer="91"/>
 <label x="182.88" y="184.658" size="1.016" layer="95" rot="R90" xref="yes"/>
 <pinref part="3V3T1" gate="G$1" pin="TP"/>
+</segment>
+<segment>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="140.208" y1="170.688" x2="140.208" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="140.208" y1="172.72" x2="144.78" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="144.78" y1="172.72" x2="150.368" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="150.368" y1="172.72" x2="150.368" y2="170.688" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="172.72" x2="144.78" y2="175.26" width="0.1524" layer="91"/>
+<junction x="144.78" y="172.72"/>
+<label x="144.78" y="175.26" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$5" class="0">
