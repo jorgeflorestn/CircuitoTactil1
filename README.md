@@ -3,8 +3,8 @@ Circuito para la detección de contacto en sensores nanoestructurados.
 
 ## Por hacer y revisar (de prioritario a no urgente)
 - Añadir capacitores al lado de la entrada de 3.3v MCU 
-- Checar valores de resistencias y capacitores 
-(los del regulador deben ser 10uF en ambas salidas,  poner en paralelo uno de 100nf ceramico para reducir la Rint de ambos)
+- **Checar valores de _resistencias y capacitores_.**
+<sub>(los del regulador deben ser 10uF en ambas salidas,  poner en paralelo uno de 100nf ceramico para reducir la Rint de ambos)</sub>
 - Hacer tabla con características de mcu/mux/potdig/opamp para presentar a Francis y compararlo con equipo Keysight 32980A y 32923A
 - ~~Controlar la salida 2 del regulador para encender/apagar circuitos ✓~~ (checar consumo? aguanta el ic?)
 - ~~Conectar MCU a pines ✓~~
@@ -17,7 +17,7 @@ Circuito para la detección de contacto en sensores nanoestructurados.
 
 ## Extras a añadir
 - ~~Añadir headers para sacar I2C y SPI ✓~~
-- ~~Añadir testpoints en muxes ✓ ~~
+- ~~Añadir testpoints en muxes ✓~~
 - ~~Jumper para saltar de 3.3v a 5v ✓~~
 
 ### Si nos da tiempo 
