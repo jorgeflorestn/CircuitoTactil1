@@ -27092,12 +27092,6 @@ Source: &lt;a href="https://www.molex.com/pdm_docs/sd/528082071_sd.pdf"&gt; Data
 <label x="246.38" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="205.74" y1="40.64" x2="205.74" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="43.18" x2="203.2" y2="43.18" width="0.1524" layer="91"/>
-<label x="203.2" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IC3" gate="G$1" pin="VDD"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="243.84" y1="33.02" x2="251.46" y2="33.02" width="0.1524" layer="91"/>
@@ -27693,6 +27687,12 @@ Source: &lt;a href="https://www.molex.com/pdm_docs/sd/528082071_sd.pdf"&gt; Data
 <wire x1="190.5" y1="127" x2="190.5" y2="129.54" width="0.1524" layer="91"/>
 <junction x="190.5" y="127"/>
 <label x="190.5" y="129.54" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="40.64" x2="205.74" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="43.18" x2="203.2" y2="43.18" width="0.1524" layer="91"/>
+<label x="203.2" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
