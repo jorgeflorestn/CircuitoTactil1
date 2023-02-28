@@ -2,10 +2,10 @@
 Circuito para la detección de contacto en sensores nanoestructurados.
 
 ## Por hacer y revisar (de prioritario a no urgente)
-- Añadir capacitores al lado de la entrada de 3.3v MCU 
 - **Checar valores de _resistencias y capacitores_.**
 <sub>(los del regulador deben ser 10uF en ambas salidas,  poner en paralelo uno de 100nf ceramico para reducir la Rint de ambos)</sub>
 - Hacer tabla con características de mcu/mux/potdig/opamp para presentar a Francis y compararlo con equipo Keysight 32980A y 32923A
+- ~~Añadir capacitores al lado de la entrada de 3.3v MCU ✓~~
 - ~~Controlar la salida 2 del regulador para encender/apagar circuitos ✓~~ (checar consumo? aguanta el ic?)
 - ~~Conectar MCU a pines ✓~~
 - ~~Revisar mosfet Q1, se están usando como canal P y no N ✓~~
@@ -22,6 +22,6 @@ Circuito para la detección de contacto en sensores nanoestructurados.
 
 ### Si nos da tiempo 
 - Añadir ic para carga y descarga de baterías (queda un espacio grande donde podemos añadir el cargador de pilas)
-- Si se añade, se debe aislar los 5v del usb y los 4.2 de la pila.
+**(Si se añade, se debe aislar los 5v del usb y los 4.2 de la pila)**.
 - Integrar ADC ADS1220 (FUTURO (puerto i2c disponible))
 - ~~Añadir conector plano de +42 pines (básicamente se añadió en el punto de los testpoints en muxes)~~
