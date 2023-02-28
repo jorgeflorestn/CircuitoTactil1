@@ -1,22 +1,27 @@
-# CircuitoTactil1
--- Por hacer y revisar (de prioritario a no urgente)
-- Conectar MCU a pines ✓
-- Revisar mosfet Q1, se están usando como canal P y no N ✓
-- Validar secuencia en MUXes ✓
-- Editar footprint de nina para quitar todos los gpio no usados ✓
-- Validar conexión spi y componentes para micro SD ✓
-- Controlar la salida 2 del regulador para encender/apagar circuitos ✓ (checar consumo? aguanta el ic?)
-- Etiquetas en pines.
-- Checar valores de resistencias y capacitores
-- añadir capacitores al lado de la entrada de 3.3v MCU 
-- tapar vias no importantes (reduciendo su tamaño <13 mils)
--- Extras a añadir
-- Añadir headers para sacar I2C y SPI ✓
-- Añadir testpoints en muxes ✓
-- Jumper para saltar de 3.3v a 5v ✓
+# Circuito Tactil NTC UADY-CICY
+Circuito para la detección de contacto en sensores nanoestructurados.
 
--- Si nos da tiempo 
+## Por hacer y revisar (de prioritario a no urgente)
+- Añadir capacitores al lado de la entrada de 3.3v MCU 
+- Checar valores de resistencias y capacitores 
+(los del regulador deben ser 10uF en ambas salidas,  poner en paralelo uno de 100nf ceramico para reducir la Rint de ambos)
+- ~~Controlar la salida 2 del regulador para encender/apagar circuitos ✓ ~~(checar consumo? aguanta el ic?)
+- Hacer tabla con características de mcu/mux/potdig/opamp para presentar a Francis y compararlo con equipo Keysight 32980A y 32923A
+- ~~Conectar MCU a pines ✓~~
+- ~~Revisar mosfet Q1, se están usando como canal P y no N ✓~~
+- ~~Validar secuencia en MUXes ✓~~(Checar que cable plano tenga los mismos pines en ambos extremos 1:1)
+- ~~Editar footprint de nina para quitar todos los gpio no usados ✓~~
+- ~~Validar conexión spi y componentes para micro SD ✓~~
+- ~~Etiquetas en pines. ✓ ~~
+- ~~tapar vias no importantes (reduciendo su tamaño <13 mils) ✓~~
+
+## Extras a añadir
+- ~~Añadir headers para sacar I2C y SPI ✓~~
+- ~~Añadir testpoints en muxes ✓ ~~
+- ~~Jumper para saltar de 3.3v a 5v ✓~~
+
+### Si nos da tiempo 
 - Añadir ic para carga y descarga de baterías (queda un espacio grande donde podemos añadir el cargador de pilas)
 - Si se añade, se debe aislar los 5v del usb y los 4.2 de la pila.
 - Integrar ADC ADS1220 (FUTURO (puerto i2c disponible))
-- Añadir conector plano de +42 pines (FUTURO)
+- ~~Añadir conector plano de +42 pines (básicamente se añadió en el punto de los testpoints en muxes)~~
