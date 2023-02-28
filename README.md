@@ -12,7 +12,7 @@ Circuito para la detección de contacto en sensores nanoestructurados.
 - ~~Validar secuencia en MUXes ✓~~(Checar que cable plano tenga los mismos pines en ambos extremos 1:1)
 - ~~Editar footprint de nina para quitar todos los gpio no usados ✓~~
 - ~~Validar conexión spi y componentes para micro SD ✓~~
-- ~~Etiquetas en pines. ✓ ~~
+- ~~Etiquetas en pines. ✓~~
 - ~~tapar vias no importantes (reduciendo su tamaño <13 mils) ✓~~
 
 ## Extras a añadir
